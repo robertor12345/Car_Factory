@@ -16,22 +16,9 @@ namespace TestingCars
 
         public WheelAssembler(){ }
 
-        public List<string> Create()
+        public ICarComponent Create()
         {
-          List<string>  wheel = new List<string>();
-
-            if (CarType== "off road")
-            {
-                wheel.Add("steel rims");
-                wheel.Add("offroad tyres");
-            }
-            else
-            {
-                wheel.Add("rims");
-                wheel.Add("high traction");
-            }
-
-            return wheel;
+            return new Wheel(CarType);
         }
     }
 }

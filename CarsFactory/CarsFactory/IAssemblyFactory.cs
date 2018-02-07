@@ -6,6 +6,6 @@ namespace CarsFactory
 {
     public interface IAssemblyFactory
     {
-        List<string> Create();
+         ICarComponent Create();
     }
 }
