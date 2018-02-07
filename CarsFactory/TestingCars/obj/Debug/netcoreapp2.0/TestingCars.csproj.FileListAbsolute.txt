@@ -1,0 +1,14 @@
+C:\GIT\test_project\CarsFactory\TestingCars\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\GIT\test_project\CarsFactory\TestingCars\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\GIT\test_project\CarsFactory\TestingCars\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\GIT\test_project\CarsFactory\TestingCars\bin\Debug\netcoreapp2.0\TestingCars.deps.json
+C:\GIT\test_project\CarsFactory\TestingCars\bin\Debug\netcoreapp2.0\TestingCars.runtimeconfig.json
+C:\GIT\test_project\CarsFactory\TestingCars\bin\Debug\netcoreapp2.0\TestingCars.runtimeconfig.dev.json
+C:\GIT\test_project\CarsFactory\TestingCars\bin\Debug\netcoreapp2.0\TestingCars.dll
+C:\GIT\test_project\CarsFactory\TestingCars\bin\Debug\netcoreapp2.0\TestingCars.pdb
+C:\GIT\test_project\CarsFactory\TestingCars\obj\Debug\netcoreapp2.0\TestingCars.csprojResolveAssemblyReference.cache
+C:\GIT\test_project\CarsFactory\TestingCars\obj\Debug\netcoreapp2.0\TestingCars.csproj.CoreCompileInputs.cache
+C:\GIT\test_project\CarsFactory\TestingCars\obj\Debug\netcoreapp2.0\TestingCars.AssemblyInfoInputs.cache
+C:\GIT\test_project\CarsFactory\TestingCars\obj\Debug\netcoreapp2.0\TestingCars.AssemblyInfo.cs
+C:\GIT\test_project\CarsFactory\TestingCars\obj\Debug\netcoreapp2.0\TestingCars.dll
+C:\GIT\test_project\CarsFactory\TestingCars\obj\Debug\netcoreapp2.0\TestingCars.pdb

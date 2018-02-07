@@ -1,0 +1,9 @@
+C:\GIT\test_project\CarsFactory\CarsFactory\bin\Debug\netcoreapp2.0\CarsFactory.deps.json
+C:\GIT\test_project\CarsFactory\CarsFactory\bin\Debug\netcoreapp2.0\CarsFactory.dll
+C:\GIT\test_project\CarsFactory\CarsFactory\bin\Debug\netcoreapp2.0\CarsFactory.pdb
+C:\GIT\test_project\CarsFactory\CarsFactory\obj\Debug\netcoreapp2.0\CarsFactory.csprojResolveAssemblyReference.cache
+C:\GIT\test_project\CarsFactory\CarsFactory\obj\Debug\netcoreapp2.0\CarsFactory.csproj.CoreCompileInputs.cache
+C:\GIT\test_project\CarsFactory\CarsFactory\obj\Debug\netcoreapp2.0\CarsFactory.AssemblyInfoInputs.cache
+C:\GIT\test_project\CarsFactory\CarsFactory\obj\Debug\netcoreapp2.0\CarsFactory.AssemblyInfo.cs
+C:\GIT\test_project\CarsFactory\CarsFactory\obj\Debug\netcoreapp2.0\CarsFactory.dll
+C:\GIT\test_project\CarsFactory\CarsFactory\obj\Debug\netcoreapp2.0\CarsFactory.pdb
