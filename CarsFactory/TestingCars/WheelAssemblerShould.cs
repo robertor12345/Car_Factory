@@ -1,6 +1,6 @@
-using CarsFactory;
 using FluentAssertions;
 using NUnit.Framework;
+using VehichleFactory.components;
 
 namespace TestingCars
 {
@@ -33,7 +33,7 @@ namespace TestingCars
         {
             var wheelAssembler = new WheelAssembler(carType);
             var response = wheelAssembler.CreateComponent();
-            var result = response.GetAttributes()[1];
+            var result = response.GetCompoent()[1];
             result.Should().Be(expected);
         }
 
@@ -45,8 +45,8 @@ namespace TestingCars
             Expectedwheel(caseNumber);
             var wheelAssembler = new WheelAssembler(carType);
             var response = wheelAssembler.CreateComponent();
-            var result = response.GetAttributes()[1];
-            result.Should().Be(testWheel.GetAttributes()[1]);
+            var result = response.GetCompoent()[1];
+            result.Should().Be(testWheel.GetCompoent()[1]);
         }
 
         [Test]
@@ -55,7 +55,7 @@ namespace TestingCars
             var wheelAssembler = new WheelAssembler("off road");
             var expected = "steel rims";
             var response = wheelAssembler.CreateComponent();
-            var result = response.GetAttributes()[1];
+            var result = response.GetCompoent()[1];
 
             result.Should().Be(expected);
         }

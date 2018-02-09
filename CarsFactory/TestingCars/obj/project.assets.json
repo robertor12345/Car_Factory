@@ -1641,14 +1641,14 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
-      "CarsFactory/1.0.0": {
+      "VehichleFactory/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
         "compile": {
-          "bin/placeholder/CarsFactory.dll": {}
+          "bin/placeholder/VehichleFactory.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CarsFactory.dll": {}
+          "bin/placeholder/VehichleFactory.dll": {}
         }
       }
     }
@@ -5856,21 +5856,21 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
-    "CarsFactory/1.0.0": {
+    "VehichleFactory/1.0.0": {
       "type": "project",
-      "path": "../CarsFactory/CarsFactory.csproj",
-      "msbuildProject": "../CarsFactory/CarsFactory.csproj"
+      "path": "../CarsFactory/VehichleFactory.csproj",
+      "msbuildProject": "../CarsFactory/VehichleFactory.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "CarsFactory >= 1.0.0",
       "FluentAssertions >= 4.19.4",
       "MSTest.TestAdapter >= 1.2.0",
       "MSTest.TestFramework >= 1.2.0",
       "Microsoft.NET.Test.Sdk >= 15.5.0",
       "Microsoft.NETCore.App >= 2.0.0",
-      "NUnit >= 3.9.0"
+      "NUnit >= 3.9.0",
+      "VehichleFactory >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5906,8 +5906,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\GIT\\test_project\\CarsFactory\\CarsFactory\\CarsFactory.csproj": {
-              "projectPath": "C:\\GIT\\test_project\\CarsFactory\\CarsFactory\\CarsFactory.csproj"
+            "C:\\GIT\\test_project\\CarsFactory\\CarsFactory\\VehichleFactory.csproj": {
+              "projectPath": "C:\\GIT\\test_project\\CarsFactory\\CarsFactory\\VehichleFactory.csproj"
             }
           }
         }

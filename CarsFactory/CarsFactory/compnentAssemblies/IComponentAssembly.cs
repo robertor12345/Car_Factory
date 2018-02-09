@@ -1,11 +1,12 @@
-﻿using System;
+﻿
 using System.Collections.Generic;
+using VehichleFactory.compnentAssemblies;
+using VehichleFactory.components;
 
-
-namespace CarsFactory
+namespace VehichleFactory.compnentAssemblies
 {
     public interface IComponentAssembly
     {
-         ICarComponent CreateComponent();
+         List<IComponent> CreateComponents();
     }
 }

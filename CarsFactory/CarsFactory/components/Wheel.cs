@@ -1,57 +1,57 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
-namespace CarsFactory
+namespace VehichleFactory.components
 {
-   public class Wheel : ICarComponent
+   public class Wheel : IComponent
    {
        private string CarType;
         public Wheel(string carType)
         {
             this.CarType = carType;
             SetAttributes();
-            GetAttributes();
+            GetCompoent();
         }
 
         public Wheel()
        {
            this.CarType = "default";
            SetAttributes();
-           GetAttributes();
+           GetCompoent();
        }
 
-       public string tyreType { get; private set; }
-        public string rimsType { get; private set; }
+       public string tyreType { get;  set; }
+        public string rimsType { get; set; }
+        public string ComponentName { get ; set; }
 
         public void SetAttributes()
         {
             switch (CarType)
             {
                 case "default":
-                    tyreType = "standard on-road";
-                    rimsType = "steel rims";
+                    ComponentName = "standard on-road";
+                    ComponentName = ComponentName+" with "+ "steel wheel rims";
                     break;
 
                 case "off road":
-                    tyreType = "off road";
-                    rimsType = "steel rims";
+                    ComponentName = "off road";
+                    ComponentName = ComponentName + " with " + "steel wheel rims";
                     break;
 
                 case "sports car":
-                    tyreType = "high traction";
-                    rimsType = "steel rims";
+                    ComponentName = "high traction wheel";
+                    ComponentName = ComponentName + " with " + "steel wheel rims";
                     break;
             }
         }
 
-       public List<string> GetAttributes()
+       public List<string> GetCompoent()
        {
 
            var attributes= new List<string>();
 
-           attributes.Add(tyreType);
-           attributes.Add(rimsType);
+            attributes.Add(ComponentName);
+            attributes.Add(tyreType);
+            attributes.Add(rimsType);
 
             return attributes;
        }

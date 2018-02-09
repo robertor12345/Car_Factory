@@ -673,9 +673,9 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\GIT\\test_project\\CarsFactory\\CarsFactory\\CarsFactory.csproj",
-      "projectName": "CarsFactory",
-      "projectPath": "C:\\GIT\\test_project\\CarsFactory\\CarsFactory\\CarsFactory.csproj",
+      "projectUniqueName": "C:\\GIT\\test_project\\CarsFactory\\CarsFactory\\VehichleFactory.csproj",
+      "projectName": "VehichleFactory",
+      "projectPath": "C:\\GIT\\test_project\\CarsFactory\\CarsFactory\\VehichleFactory.csproj",
       "packagesPath": "C:\\Users\\roberto.branco-rhode\\.nuget\\packages\\",
       "outputPath": "C:\\GIT\\test_project\\CarsFactory\\CarsFactory\\obj\\",
       "projectStyle": "PackageReference",

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarsFactory", "CarsFactory\CarsFactory.csproj", "{B3EC431C-8B21-4E79-82F4-517A819B65C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehichleFactory", "CarsFactory\VehichleFactory.csproj", "{B3EC431C-8B21-4E79-82F4-517A819B65C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingCars", "TestingCars\TestingCars.csproj", "{4D1FFD12-FA01-4A45-8285-A496BA8D4C0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestingCars", "TestingCars\TestingCars.csproj", "{4D1FFD12-FA01-4A45-8285-A496BA8D4C0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
