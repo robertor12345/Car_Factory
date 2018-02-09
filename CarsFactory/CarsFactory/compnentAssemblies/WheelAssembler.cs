@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace TestingCars
 {
-    public class WheelAssembler: IAssemblyFactory
+    public class WheelAssembler: IComponentAssembly
     {
         public string CarType { get; set; }
 
@@ -16,7 +16,7 @@ namespace TestingCars
 
         public WheelAssembler(){ }
 
-        public ICarComponent Create()
+        public ICarComponent CreateComponent()
         {
             return new Wheel(CarType);
         }

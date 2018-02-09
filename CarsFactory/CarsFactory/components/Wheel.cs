@@ -11,12 +11,14 @@ namespace CarsFactory
         {
             this.CarType = carType;
             SetAttributes();
+            GetAttributes();
         }
 
-       public Wheel()
+        public Wheel()
        {
            this.CarType = "default";
            SetAttributes();
+           GetAttributes();
        }
 
        public string tyreType { get; private set; }

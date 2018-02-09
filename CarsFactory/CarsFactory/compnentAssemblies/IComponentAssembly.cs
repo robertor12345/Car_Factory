@@ -4,8 +4,8 @@ using System.Collections.Generic;
 
 namespace CarsFactory
 {
-    public interface IAssemblyFactory
+    public interface IComponentAssembly
     {
-         ICarComponent Create();
+         ICarComponent CreateComponent();
     }
 }

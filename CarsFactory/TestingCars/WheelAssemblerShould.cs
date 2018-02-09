@@ -32,29 +32,30 @@ namespace TestingCars
             string expected)
         {
             var wheelAssembler = new WheelAssembler(carType);
-            var response = wheelAssembler.Create();
+            var response = wheelAssembler.CreateComponent();
             var result = response.GetAttributes()[1];
             result.Should().Be(expected);
         }
 
-        [TestCase("off road", 1)]
+        [TestCase("default", 1)]
         [TestCase("sports car", 2)]
         public void WhenWheelAssemblerIsCalled_AndCarTypeIsPassedInReturnAppropriateWheelAttributes(string carType,
             int caseNumber)
         {
             Expectedwheel(caseNumber);
             var wheelAssembler = new WheelAssembler(carType);
-            var result = wheelAssembler.Create();
-            result.Should().Be(testWheel);
+            var response = wheelAssembler.CreateComponent();
+            var result = response.GetAttributes()[1];
+            result.Should().Be(testWheel.GetAttributes()[1]);
         }
 
         [Test]
         public void WhenWheelAssemblerIsCalled_ReturnWheel()
         {
-            var wheelAssembler = new WheelAssembler();
-            var expected = "rims";
-            var response = wheelAssembler.Create();
-            var result = response;
+            var wheelAssembler = new WheelAssembler("off road");
+            var expected = "steel rims";
+            var response = wheelAssembler.CreateComponent();
+            var result = response.GetAttributes()[1];
 
             result.Should().Be(expected);
         }
