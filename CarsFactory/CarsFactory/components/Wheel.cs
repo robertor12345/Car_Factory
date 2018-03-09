@@ -14,13 +14,13 @@ namespace VehichleFactory.components
 
         public Wheel()
        {
-           this.CarType = "default";
+           CarType = "default";
            SetAttributes();
            GetCompoent();
        }
 
-       public string tyreType { get;  set; }
-        public string rimsType { get; set; }
+       public string TyreType { get;  set; }
+        public string RimsType { get; set; }
         public string ComponentName { get ; set; }
 
         public void SetAttributes()
@@ -50,8 +50,8 @@ namespace VehichleFactory.components
            var attributes= new List<string>();
 
             attributes.Add(ComponentName);
-            attributes.Add(tyreType);
-            attributes.Add(rimsType);
+            attributes.Add(TyreType);
+            attributes.Add(RimsType);
 
             return attributes;
        }

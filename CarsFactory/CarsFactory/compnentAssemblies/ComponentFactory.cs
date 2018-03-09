@@ -5,7 +5,7 @@ using VehichleFactory.components;
 
 namespace VehichleFactory.compnentAssemblies
 {
-    class ComponentFactory : IComponentAssembly
+   public class ComponentFactory : IComponentAssembly
     {
         public string VehicleType { get; set; }
 
@@ -14,7 +14,10 @@ namespace VehichleFactory.compnentAssemblies
             this.VehicleType = vehicleType;
         }
 
-        public ComponentFactory() { }
+        public ComponentFactory()
+        {
+            this.VehicleType = "default";
+        }
 
         public List<IComponent> CreateComponents()
         {
@@ -27,6 +30,11 @@ namespace VehichleFactory.compnentAssemblies
                     break;
 
                 case "plane":
+                    vehicleParts.Add(new Wings());
+                    vehicleParts.Add(new Cockpit());
+                    break;
+
+                case "default":
                     vehicleParts.Add(new Wings());
                     vehicleParts.Add(new Cockpit());
                     break;

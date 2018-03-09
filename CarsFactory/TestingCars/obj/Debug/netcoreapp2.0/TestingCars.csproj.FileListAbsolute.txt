@@ -12,3 +12,5 @@ C:\GIT\test_project\CarsFactory\TestingCars\obj\Debug\netcoreapp2.0\TestingCars.
 C:\GIT\test_project\CarsFactory\TestingCars\obj\Debug\netcoreapp2.0\TestingCars.AssemblyInfo.cs
 C:\GIT\test_project\CarsFactory\TestingCars\obj\Debug\netcoreapp2.0\TestingCars.dll
 C:\GIT\test_project\CarsFactory\TestingCars\obj\Debug\netcoreapp2.0\TestingCars.pdb
+C:\GIT\test_project\CarsFactory\TestingCars\bin\Debug\netcoreapp2.0\VehichleFactory.dll
+C:\GIT\test_project\CarsFactory\TestingCars\bin\Debug\netcoreapp2.0\VehichleFactory.pdb

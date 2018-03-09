@@ -4,7 +4,7 @@ namespace VehichleFactory.components
 {
     internal class Wings : IComponent
     {
-        private string planeType;
+        private readonly string planeType;
 
         public Wings(string planeType)
         {
