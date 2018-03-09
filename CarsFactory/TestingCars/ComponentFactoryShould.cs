@@ -1,29 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using FluentAssertions;
 using NUnit.Framework;
 using VehichleFactory.compnentAssemblies;
 using VehichleFactory.components;
 
-namespace TestingCars
+namespace TestingPatterns
 {
     [TestFixture]
     public class ComponentFactoryShould
     {
-        private List<IComponent> DummyCarComponents()
-        {
-            var componentFactory = new ComponentFactory("car");
-            var dummyCarComponents = componentFactory.CreateComponents();
-            return dummyCarComponents;
-        }
-
-        public List<IComponent> DummyPlaneComponents()
-        {
-            var componentFactory = new ComponentFactory("plane");
-            var dummyPlaneComponents = componentFactory.CreateComponents();
-            return dummyPlaneComponents;
-        }
-
         [TestCase("car")]
         public void WhenComponentFactoryIsCalledWithVehicleTypeofCarParameter_ThenAListOfComponentObjectsIsReturned(
             string vehicleType)
@@ -32,13 +17,12 @@ namespace TestingCars
             var expected = DummyCarComponents();
             var result = componentFactory.CreateComponents();
             int i = 0;
-                        
-                        foreach (IComponent component in result)
-                        {
-                            component.Should().Be(result[i]);
-                            i++;
-                        }
 
+            foreach (IComponent component in result)
+            {
+                component.Should().Be(result[i]);
+                i++;
+            }
         }
 
         [TestCase("plane")]
@@ -55,6 +39,20 @@ namespace TestingCars
                 component.Should().Be(result[i]);
                 i++;
             }
+        }
+
+        private List<IComponent> DummyCarComponents()
+        {
+            var componentFactory = new ComponentFactory("car");
+            var dummyCarComponents = componentFactory.CreateComponents();
+            return dummyCarComponents;
+        }
+
+        public List<IComponent> DummyPlaneComponents()
+        {
+            var componentFactory = new ComponentFactory("plane");
+            var dummyPlaneComponents = componentFactory.CreateComponents();
+            return dummyPlaneComponents;
         }
     }
 }

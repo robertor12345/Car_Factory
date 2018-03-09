@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehichleFactory", "CarsFactory\VehichleFactory.csproj", "{B3EC431C-8B21-4E79-82F4-517A819B65C0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestingCars", "TestingCars\TestingCars.csproj", "{4D1FFD12-FA01-4A45-8285-A496BA8D4C0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestingPatterns", "TestingCars\TestingPatterns.csproj", "{4D1FFD12-FA01-4A45-8285-A496BA8D4C0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransportStrategy", "TransportStrategy\TransportStrategy.csproj", "{CC425404-D1BE-49CE-A07D-92F9DF84EA8D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{4D1FFD12-FA01-4A45-8285-A496BA8D4C0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D1FFD12-FA01-4A45-8285-A496BA8D4C0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D1FFD12-FA01-4A45-8285-A496BA8D4C0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC425404-D1BE-49CE-A07D-92F9DF84EA8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC425404-D1BE-49CE-A07D-92F9DF84EA8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC425404-D1BE-49CE-A07D-92F9DF84EA8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC425404-D1BE-49CE-A07D-92F9DF84EA8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
