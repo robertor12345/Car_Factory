@@ -1,31 +1,30 @@
 ﻿using System.Collections.Generic;
-using VehichleFactory.components;
 
-namespace VehichleFactory.compnentAssemblies
+namespace VehichleFactory.Components
 {
     public class SteeringWheel : IComponent
     {
-        private readonly string CarType;
+        private readonly string carType;
 
         public string ComponentName { get; set; }
 
         public SteeringWheel(string carType)
         {
-            CarType = carType;
+            this.carType = carType;
             SetAttributes();
             GetCompoent();
         }
 
         public SteeringWheel()
         {
-            CarType = "default";
+            carType = "default";
             SetAttributes();
             GetCompoent();
         }
 
         public void SetAttributes()
         {
-            switch (CarType)
+            switch (carType)
             {
                 case "default":
                     ComponentName = "leather steeringwheel";
