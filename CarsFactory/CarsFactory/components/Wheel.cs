@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace VehichleFactory.components
+namespace VehichleFactory.Components
 {
     public class Wheel : IComponent
     {

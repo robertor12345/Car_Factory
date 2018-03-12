@@ -1,9 +1,9 @@
 ﻿using System;
 using TransportStrategy.TransportStrategies;
 
-namespace TransportStrategy
+namespace TransportStrategy.Clients
 {
-    internal class OrderTransport
+    public class OrderTransport
     {
         private static void Main(string[] args)
         {

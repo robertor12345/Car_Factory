@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <StartupObject>TransportStrategy.OrderTransport</StartupObject>
+    <StartupObject>TransportStrategy.Clients.OrderTransport</StartupObject>
   </PropertyGroup>
 
 </Project>

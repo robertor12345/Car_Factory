@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace VehichleFactory.components
+namespace VehichleFactory.Components
 {
     internal class Wings : IComponent
     {

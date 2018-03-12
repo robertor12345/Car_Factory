@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using VehichleFactory.components;
+using VehichleFactory.Components;
 
-namespace VehichleFactory.compnentAssemblies
+namespace VehichleFactory.CompnentAssemblies
 {
     public interface IComponentAssembly
     {

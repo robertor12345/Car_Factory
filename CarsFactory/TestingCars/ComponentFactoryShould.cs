@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using FluentAssertions;
 using NUnit.Framework;
-using VehichleFactory.compnentAssemblies;
-using VehichleFactory.components;
+using VehichleFactory.CompnentAssemblies;
+using VehichleFactory.Components;
 
 namespace TestingPatterns
 {

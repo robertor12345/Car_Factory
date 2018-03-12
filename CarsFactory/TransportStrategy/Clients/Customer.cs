@@ -1,6 +1,6 @@
 ﻿using TransportStrategy.TransportStrategies;
 
-namespace TransportStrategy
+namespace TransportStrategy.Clients
 {
     public class Customer
     {
