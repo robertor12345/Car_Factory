@@ -1,6 +1,4 @@
-﻿using TransportStrategy.TransportStrategies;
-
-namespace TransportStrategy.TransportStrategies
+﻿namespace TransportStrategy.TransportStrategies
 {
     public class PlaneStrategy : ITransportStrategy
     {

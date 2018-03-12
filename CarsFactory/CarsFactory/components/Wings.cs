@@ -6,6 +6,8 @@ namespace VehichleFactory.components
     {
         private readonly string planeType;
 
+        public string ComponentName { get; set; }
+
         public Wings(string planeType)
         {
             this.planeType = planeType;
@@ -19,8 +21,6 @@ namespace VehichleFactory.components
             SetAttributes();
             GetCompoent();
         }
-
-        public string ComponentName { get; set; }
 
         public void SetAttributes()
         {
@@ -37,7 +37,6 @@ namespace VehichleFactory.components
             var attributes = new List<string>();
 
             attributes.Add(ComponentName);
-
 
             return attributes;
         }

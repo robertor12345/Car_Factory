@@ -20,32 +20,41 @@ namespace TestingPatterns
             trainStrategy = new TrainStrategy();
         }
 
-        [TestCase]
-        public void WhenCustomerIsCalledWithANewCarStrategyPassedInAsAParameter_ThenANewTimeEstimateIsReturned()
+        [TestCase(3, 180)]
+        [TestCase(4, 240)]
+        [TestCase(5, 300)]
+        public void WhenCustomerIsCalledWithANewCarStrategyPassedInAsAParameter_ThenANewTimeEstimateIsReturned(int expectedTime,
+            int distance)
         {
-            var expected = 3;
+            var expected = expectedTime;
             Customer customer = new Customer(carStrategy);
-            var result = customer.CalculateTime(180);
+            var result = customer.CalculateTime(distance);
 
             result.Should().Be(expected);
         }
 
-        [TestCase]
-        public void WhenCustomerIsCalledWithANewPlaneStrategyPassedInAsAParameter_ThenANewTimeEstimateIsReturned()
+        [TestCase(2, 450)]
+        [TestCase(0, 180)]
+        [TestCase(1, 300)]
+        public void WhenCustomerIsCalledWithANewPlaneStrategyPassedInAsAParameter_ThenANewTimeEstimateIsReturned(int expectedTime,
+            int distance)
         {
-            var expected = 0;
+            var expected = expectedTime;
             Customer customer = new Customer(planeStrategy);
-            var result = customer.CalculateTime(180);
+            var result = customer.CalculateTime(distance);
 
             result.Should().Be(expected);
         }
 
-        [TestCase]
-        public void WhenCustomerIsCalledWithANewTrainStrategyPassedInAsAParameter_ThenANewTimeEstimateIsReturned()
+        [TestCase(3, 450)]
+        [TestCase(1, 180)]
+        [TestCase(2, 300)]
+        public void WhenCustomerIsCalledWithANewTrainStrategyPassedInAsAParameter_ThenANewTimeEstimateIsReturned(int expectedTime,
+            int distance)
         {
-            var expected = 1;
+            var expected = expectedTime;
             Customer customer = new Customer(trainStrategy);
-            var result = customer.CalculateTime(180);
+            var result = customer.CalculateTime(distance);
 
             result.Should().Be(expected);
         }

@@ -1,5 +1,4 @@
-﻿
-namespace TransportStrategy.TransportStrategies
+﻿namespace TransportStrategy.TransportStrategies
 {
     public class CarStrategy : ITransportStrategy
     {

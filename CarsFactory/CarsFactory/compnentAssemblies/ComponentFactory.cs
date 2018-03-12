@@ -1,27 +1,25 @@
 ﻿using System.Collections.Generic;
-using VehichleFactory;
-using VehichleFactory.compnentAssemblies;
 using VehichleFactory.components;
 
 namespace VehichleFactory.compnentAssemblies
 {
-   public class ComponentFactory : IComponentAssembly
+    public class ComponentFactory : IComponentAssembly
     {
         public string VehicleType { get; set; }
 
         public ComponentFactory(string vehicleType)
         {
-            this.VehicleType = vehicleType;
+            VehicleType = vehicleType;
         }
 
         public ComponentFactory()
         {
-            this.VehicleType = "default";
+            VehicleType = "default";
         }
 
         public List<IComponent> CreateComponents()
         {
-            List <IComponent> vehicleParts = new List<IComponent>();
+            List<IComponent> vehicleParts = new List<IComponent>();
             switch (VehicleType)
             {
                 case "car":

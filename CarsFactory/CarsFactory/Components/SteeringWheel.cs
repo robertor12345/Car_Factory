@@ -1,23 +1,22 @@
 ﻿using System.Collections.Generic;
+using VehichleFactory.components;
 
-namespace VehichleFactory.components
+namespace VehichleFactory.compnentAssemblies
 {
-    public class Wheel : IComponent
+    public class SteeringWheel : IComponent
     {
         private readonly string CarType;
 
-        public string TyreType { get; set; }
-        public string RimsType { get; set; }
         public string ComponentName { get; set; }
 
-        public Wheel(string carType)
+        public SteeringWheel(string carType)
         {
             CarType = carType;
             SetAttributes();
             GetCompoent();
         }
 
-        public Wheel()
+        public SteeringWheel()
         {
             CarType = "default";
             SetAttributes();
@@ -29,18 +28,18 @@ namespace VehichleFactory.components
             switch (CarType)
             {
                 case "default":
-                    ComponentName = "standard on-road";
-                    ComponentName = ComponentName + " with " + "steel wheel rims";
+                    ComponentName = "leather steeringwheel";
+
                     break;
 
                 case "off road":
-                    ComponentName = "off road";
-                    ComponentName = ComponentName + " with " + "steel wheel rims";
+                    ComponentName = "classic steel steeringwheel";
+
                     break;
 
                 case "sports car":
-                    ComponentName = "high traction wheel";
-                    ComponentName = ComponentName + " with " + "steel wheel rims";
+                    ComponentName = "wood steeringwheel";
+
                     break;
             }
         }
@@ -50,8 +49,6 @@ namespace VehichleFactory.components
             var attributes = new List<string>();
 
             attributes.Add(ComponentName);
-            attributes.Add(TyreType);
-            attributes.Add(RimsType);
 
             return attributes;
         }
