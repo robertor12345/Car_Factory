@@ -4,7 +4,7 @@ namespace VehichleFactory.Components
 {
     public class Wheel : IComponent
     {
-        private readonly string CarType;
+        private readonly string carType;
 
         public string TyreType { get; set; }
         public string RimsType { get; set; }
@@ -12,21 +12,21 @@ namespace VehichleFactory.Components
 
         public Wheel(string carType)
         {
-            CarType = carType;
+            this.carType = carType;
             SetAttributes();
             GetCompoent();
         }
 
         public Wheel()
         {
-            CarType = "default";
+            carType = "default";
             SetAttributes();
             GetCompoent();
         }
 
         public void SetAttributes()
         {
-            switch (CarType)
+            switch (carType)
             {
                 case "default":
                     ComponentName = "standard on-road";
