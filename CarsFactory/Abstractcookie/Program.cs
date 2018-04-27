@@ -10,7 +10,7 @@
             AbstractChocolateCookie  abstractChocolateCookieB = new ConcreteDoubleChocolateCookie();
             abstractChocolateCookieB.CreateCookieTemplate();
 
-            AbstractChocolateCookie abstractChocolateCookieC = new ConcreteMilkAbstractChocolateCookie();
+            AbstractChocolateCookie abstractChocolateCookieC = new ConcreteMilkChocolateCookie();
             abstractChocolateCookieC.CreateCookieTemplate();
 
         }

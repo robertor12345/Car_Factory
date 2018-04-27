@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransportStrategy", "Transp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperHeroBuilderProj", "ConsoleApp1\SuperHeroBuilderProj.csproj", "{B195C49B-BF44-4EC6-902E-DF4B4C935875}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractCookie", "Abstractcookie\AbstractCookie.csproj", "{093EA029-B314-4859-AA41-8A26E4EA0239}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookieTemplate", "Abstractcookie\CookieTemplate.csproj", "{093EA029-B314-4859-AA41-8A26E4EA0239}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePattern", "StatePattern\StatePattern.csproj", "{FC61AF4B-EDD6-4537-9F80-E8EF59204C9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{093EA029-B314-4859-AA41-8A26E4EA0239}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{093EA029-B314-4859-AA41-8A26E4EA0239}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{093EA029-B314-4859-AA41-8A26E4EA0239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC61AF4B-EDD6-4537-9F80-E8EF59204C9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC61AF4B-EDD6-4537-9F80-E8EF59204C9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC61AF4B-EDD6-4537-9F80-E8EF59204C9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC61AF4B-EDD6-4537-9F80-E8EF59204C9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

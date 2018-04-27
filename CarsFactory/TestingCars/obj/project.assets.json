@@ -1641,6 +1641,15 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
+      "CookieTemplate/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/CookieTemplate.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CookieTemplate.dll": {}
+        }
+      },
       "SuperHeroBuilderProj/1.0.0": {
         "type": "project",
         "compile": {
@@ -5878,6 +5887,11 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
+    "CookieTemplate/1.0.0": {
+      "type": "project",
+      "path": "../Abstractcookie/CookieTemplate.csproj",
+      "msbuildProject": "../Abstractcookie/CookieTemplate.csproj"
+    },
     "SuperHeroBuilderProj/1.0.0": {
       "type": "project",
       "path": "../ConsoleApp1/SuperHeroBuilderProj.csproj",
@@ -5896,6 +5910,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "CookieTemplate >= 1.0.0",
       "FluentAssertions >= 4.19.4",
       "MSTest.TestAdapter >= 1.2.0",
       "MSTest.TestFramework >= 1.2.0",
@@ -5941,6 +5956,9 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
+            "C:\\GIT\\test_project\\CarsFactory\\Abstractcookie\\CookieTemplate.csproj": {
+              "projectPath": "C:\\GIT\\test_project\\CarsFactory\\Abstractcookie\\CookieTemplate.csproj"
+            },
             "C:\\GIT\\test_project\\CarsFactory\\ConsoleApp1\\SuperHeroBuilderProj.csproj": {
               "projectPath": "C:\\GIT\\test_project\\CarsFactory\\ConsoleApp1\\SuperHeroBuilderProj.csproj"
             },
