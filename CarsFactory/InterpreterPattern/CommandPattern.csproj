@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FC61AF4B-EDD6-4537-9F80-E8EF59204C9A}</ProjectGuid>
+    <ProjectGuid>{7F39AB23-3D21-4AF0-A969-659EAA8902ED}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>StatePattern</RootNamespace>
-    <AssemblyName>StatePattern</AssemblyName>
+    <RootNamespace>InterpreterPattern</RootNamespace>
+    <AssemblyName>InterpreterPattern</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,15 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AwakeState.cs" />
-    <Compile Include="Client.cs" />
-    <Compile Include="DreamingState.cs" />
-    <Compile Include="Human.cs" />
-    <Compile Include="HumanState.cs" />
+    <Compile Include="ICommand.cs" />
+    <Compile Include="FlipUpCommand.cs" />
+    <Compile Include="FlipDownCommand.cs" />
+    <Compile Include="LightSwitch.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SleepingState.cs" />
-    <Compile Include="TiredState.cs" />
-    <Compile Include="TrainingState.cs" />
+    <Compile Include="Light.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

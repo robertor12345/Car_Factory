@@ -1,4 +1,6 @@
-﻿namespace AbstractCookie
+﻿using System;
+
+namespace AbstractCookie
 {
     public abstract class AbstractChocolateCookie
     {
@@ -20,6 +22,8 @@
             BakeInOven();
 
             CreatedCookie = Chiptype +" "+ BaseType +" baked for "+ BakeTime + " minutes";
+
+            Console.WriteLine(CreatedCookie);
 
             return this;
         }

@@ -8,7 +8,7 @@ namespace StatePattern
 
         public Human()
         {
-            currentState = new TiredState();
+            currentState = new SleepingState();
         }
 
         public void WakeUpHuman()
