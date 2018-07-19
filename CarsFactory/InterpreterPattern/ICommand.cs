@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace InterpreterPattern
 {
-    abstract class ICommand
+   public abstract class ICommand
     {
         protected Light Light;
 

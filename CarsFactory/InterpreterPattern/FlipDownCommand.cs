@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InterpreterPattern
 {
-    class FlipDownCommand : ICommand
+   public class FlipDownCommand : ICommand
     {
         public FlipDownCommand(Light light) :
             base(light)
@@ -15,7 +15,7 @@ namespace InterpreterPattern
 
         public override void Execute()
         {
-            Light.TurnOn();
+            Light.TurnOff();
         }
     }
 }

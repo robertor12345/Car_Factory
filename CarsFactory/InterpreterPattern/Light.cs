@@ -3,7 +3,7 @@ using System.Security.Cryptography.X509Certificates;
 
 namespace InterpreterPattern
 {
-    class Light
+   public class Light
     {
         public bool State { get; private set; }
 

@@ -1641,6 +1641,28 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
+      "AdapterPattern/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "Microsoft.NETCore.App": "2.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AdapterPattern.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AdapterPattern.dll": {}
+        }
+      },
+      "CommandPattern/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/CommandPattern.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommandPattern.dll": {}
+        }
+      },
       "CookieTemplate/1.0.0": {
         "type": "project",
         "compile": {
@@ -5887,6 +5909,16 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
+    "AdapterPattern/1.0.0": {
+      "type": "project",
+      "path": "../AdapterPattern/AdapterPattern.csproj",
+      "msbuildProject": "../AdapterPattern/AdapterPattern.csproj"
+    },
+    "CommandPattern/1.0.0": {
+      "type": "project",
+      "path": "../InterpreterPattern/CommandPattern.csproj",
+      "msbuildProject": "../InterpreterPattern/CommandPattern.csproj"
+    },
     "CookieTemplate/1.0.0": {
       "type": "project",
       "path": "../Abstractcookie/CookieTemplate.csproj",
@@ -5910,6 +5942,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "AdapterPattern >= 1.0.0",
+      "CommandPattern >= 1.0.0",
       "CookieTemplate >= 1.0.0",
       "FluentAssertions >= 4.19.4",
       "MSTest.TestAdapter >= 1.2.0",
@@ -5965,6 +5999,12 @@
             },
             "C:\\GIT\\test_project\\CarsFactory\\CarsFactory\\VehichleFactory.csproj": {
               "projectPath": "C:\\GIT\\test_project\\CarsFactory\\CarsFactory\\VehichleFactory.csproj"
+            },
+            "C:\\GIT\\test_project\\CarsFactory\\InterpreterPattern\\CommandPattern.csproj": {
+              "projectPath": "C:\\GIT\\test_project\\CarsFactory\\InterpreterPattern\\CommandPattern.csproj"
+            },
+            "C:\\GIT\\test_project\\CarsFactory\\AdapterPattern\\AdapterPattern.csproj": {
+              "projectPath": "C:\\GIT\\test_project\\CarsFactory\\AdapterPattern\\AdapterPattern.csproj"
             },
             "C:\\GIT\\test_project\\CarsFactory\\TransportStrategy\\TransportStrategy.csproj": {
               "projectPath": "C:\\GIT\\test_project\\CarsFactory\\TransportStrategy\\TransportStrategy.csproj"

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InterpreterPattern
 {
-    class LightSwitch
+   public class LightSwitch
     {
 
         private ICommand command;
