@@ -9,7 +9,7 @@
 
         public string Fly()
         {
-            return "Weeeee";
+            return "flap flap";
         }
     }
 }

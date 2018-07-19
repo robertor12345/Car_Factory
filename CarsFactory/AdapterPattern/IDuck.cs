@@ -3,6 +3,7 @@
     public interface IDuck
     {
         string Quack();
-   
+        string Fly();
+
     }
 }

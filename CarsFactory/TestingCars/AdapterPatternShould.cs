@@ -47,13 +47,58 @@ namespace TestingPatterns
         [Test]
         public void TurkeyShouldFly()
         {
-            var expected = "Weeeee";
+            var expected = "flap flap";
 
             WildTurkey wildTurkey = new WildTurkey();
 
             var result = wildTurkey.Fly();
 
             result.Should().Be(expected);
+        }
+
+
+        [Test]
+        public void TurkeyShouldPassAsDuck()
+        {
+            var expected = "gobble gobble";
+
+            WildTurkey turkey = new WildTurkey();
+
+            TurkeyAdapter turkeyAdapter = new TurkeyAdapter(turkey);
+
+            testDuck(turkeyAdapter);
+
+          var result=  turkeyAdapter.Quack();
+     
+
+            result.Should().Be(expected);
+        }
+
+
+        static void testDuck(IDuck duck)
+        {
+            duck.Quack();
+            duck.Fly();
+        }
+    }
+
+    public class TurkeyAdapter : IDuck
+    {
+        WildTurkey turkey;
+
+       public TurkeyAdapter(WildTurkey turkey)
+       {
+           this.turkey = turkey;
+       }
+
+        public string Quack()
+        {
+           return turkey.Gobble();
+        }
+
+        public string Fly()
+        {
+           return turkey.Fly();
         }
     }
 }
