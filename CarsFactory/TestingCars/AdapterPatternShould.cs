@@ -14,7 +14,7 @@ namespace TestingPatterns
 
             MallardDuck mallardDuck = new MallardDuck();
 
-           var result= mallardDuck.Quack();
+            var result = mallardDuck.Quack();
 
             result.Should().Be(expected);
         }
@@ -26,11 +26,10 @@ namespace TestingPatterns
 
             MallardDuck mallardDuck = new MallardDuck();
 
-           var result= mallardDuck.Fly();
+            var result = mallardDuck.Fly();
 
             result.Should().Be(expected);
         }
-
 
         [Test]
         public void TurkeyShouldGobble()
@@ -56,7 +55,6 @@ namespace TestingPatterns
             result.Should().Be(expected);
         }
 
-
         [Test]
         public void TurkeyShouldPassAsDuck()
         {
@@ -66,39 +64,17 @@ namespace TestingPatterns
 
             TurkeyAdapter turkeyAdapter = new TurkeyAdapter(turkey);
 
-            testDuck(turkeyAdapter);
+            TestDuck(turkeyAdapter);
 
-          var result=  turkeyAdapter.Quack();
-     
+            var result = turkeyAdapter.Quack();
 
             result.Should().Be(expected);
         }
 
-
-        static void testDuck(IDuck duck)
+        private static void TestDuck(IDuck duck)
         {
             duck.Quack();
             duck.Fly();
-        }
-    }
-
-    public class TurkeyAdapter : IDuck
-    {
-        WildTurkey turkey;
-
-       public TurkeyAdapter(WildTurkey turkey)
-       {
-           this.turkey = turkey;
-       }
-
-        public string Quack()
-        {
-           return turkey.Gobble();
-        }
-
-        public string Fly()
-        {
-           return turkey.Fly();
         }
     }
 }
