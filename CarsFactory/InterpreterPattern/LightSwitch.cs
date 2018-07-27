@@ -1,19 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace InterpreterPattern
+﻿namespace InterpreterPattern
 {
-   public class LightSwitch
+    public class LightSwitch
     {
-
-        private ICommand command;
+        private ICommand Command;
 
         public void SetAndExecuteCommand(ICommand command)
         {
-            this.command = command;
+            Command = command;
             command.Execute();
         }
     }

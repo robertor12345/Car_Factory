@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Security.Cryptography.X509Certificates;
 
 namespace InterpreterPattern
 {
-   public class Light
+    public class Light
     {
         public bool State { get; private set; }
 
@@ -31,6 +30,7 @@ namespace InterpreterPattern
                     onOrOff = "off";
                     break;
             }
+
             Console.WriteLine("Light is switched " + onOrOff);
         }
     }

@@ -1,39 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Windows.Input;
-using FluentAssertions;
+﻿using FluentAssertions;
 using InterpreterPattern;
 using NUnit.Framework;
-using NUnit.Framework.Internal;
 
 namespace TestingPatterns
 
-
 {
-    [TestFixture()]
-    class CommandPatternShould
+    [TestFixture]
+    internal class CommandPatternShould
     {
-
-        
-
         [Test]
         public void FlipDownCommandShouldSetLightStateToOn()
         {
-            var expectedStatus=true;
+            var expectedStatus = true;
 
             Light light = new Light();
 
             InterpreterPattern.ICommand commandA = new FlipUpCommand(light);
-           
+
             LightSwitch lightSwitch = new LightSwitch();
 
             lightSwitch.SetAndExecuteCommand(commandA);
 
-
             light.State.Should().Be(expectedStatus);
-
-
         }
 
         [Test]
@@ -49,11 +37,7 @@ namespace TestingPatterns
 
             lightSwitch.SetAndExecuteCommand(commandA);
 
-
             light.State.Should().Be(expectedStatus);
-
-
         }
-
     }
 }

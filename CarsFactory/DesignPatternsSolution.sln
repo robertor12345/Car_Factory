@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern", "Interpret
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{A8AF917A-509A-40E2-A44B-1CD292823FDD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6C1BCC8C-7145-48E1-8CA6-B54ADAC3DB4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuIteratorPattern", "MenuIteratorPattern\MenuIteratorPattern.csproj", "{2793CF9F-AC0C-467C-BB03-F5476102F73A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,9 +61,16 @@ Global
 		{A8AF917A-509A-40E2-A44B-1CD292823FDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8AF917A-509A-40E2-A44B-1CD292823FDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8AF917A-509A-40E2-A44B-1CD292823FDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2793CF9F-AC0C-467C-BB03-F5476102F73A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2793CF9F-AC0C-467C-BB03-F5476102F73A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2793CF9F-AC0C-467C-BB03-F5476102F73A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2793CF9F-AC0C-467C-BB03-F5476102F73A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4D1FFD12-FA01-4A45-8285-A496BA8D4C0D} = {6C1BCC8C-7145-48E1-8CA6-B54ADAC3DB4D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B471BD9B-0013-4DA2-8C87-B2E1559F0649}

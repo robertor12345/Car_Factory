@@ -2,9 +2,9 @@
 
 namespace AdapterPattern
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             var expected = "gobble gobble";
 
@@ -14,8 +14,7 @@ namespace AdapterPattern
 
             TestDuck(turkeyAdapter);
 
-           Console.WriteLine(turkeyAdapter.Quack()); 
-            
+            Console.WriteLine(turkeyAdapter.Quack());
         }
 
         private static void TestDuck(IDuck duck)

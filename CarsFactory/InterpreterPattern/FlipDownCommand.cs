@@ -1,15 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace InterpreterPattern
+﻿namespace InterpreterPattern
 {
-   public class FlipDownCommand : ICommand
+    public class FlipDownCommand : ICommand
     {
-        public FlipDownCommand(Light light) :
-            base(light)
+        public FlipDownCommand(Light light) : base(light)
         {
         }
 
@@ -19,4 +12,3 @@ namespace InterpreterPattern
         }
     }
 }
-

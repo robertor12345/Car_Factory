@@ -1,6 +1,5 @@
 ﻿using FluentAssertions;
 using NUnit.Framework;
-using TransportStrategy;
 using TransportStrategy.Clients;
 using TransportStrategy.TransportStrategies;
 
