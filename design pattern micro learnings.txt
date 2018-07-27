@@ -1,0 +1,19 @@
+fluent builder design pattern
+template method
+state pattern
+command pattern- reverse action
+interpreter pattern- switch languages
+observer pattern
+visitor pattern
+
+
+
+
+
+Exceptions in ReadModelGenerator
+
+
+Multiple ReadModelGenerator exceptions have been thrown
+
+
+Asset@ASOS.com
