@@ -5957,57 +5957,55 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\roberto.branco-rhode\\.nuget\\packages\\": {},
+    "C:\\Users\\Roberto\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "C:\\GIT\\test_project\\CarsFactory\\TestingCars\\TestingPatterns.csproj",
+      "projectUniqueName": "C:\\GIT\\Car_Factory\\CarsFactory\\TestingCars\\TestingPatterns.csproj",
       "projectName": "TestingPatterns",
-      "projectPath": "C:\\GIT\\test_project\\CarsFactory\\TestingCars\\TestingPatterns.csproj",
-      "packagesPath": "C:\\Users\\roberto.branco-rhode\\.nuget\\packages\\",
-      "outputPath": "C:\\GIT\\test_project\\CarsFactory\\TestingCars\\obj\\",
+      "projectPath": "C:\\GIT\\Car_Factory\\CarsFactory\\TestingCars\\TestingPatterns.csproj",
+      "packagesPath": "C:\\Users\\Roberto\\.nuget\\packages\\",
+      "outputPath": "C:\\GIT\\Car_Factory\\CarsFactory\\TestingCars\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\roberto.branco-rhode\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Roberto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://proget.services.kingsway.asos.com/nuget/ASOS": {},
-        "https://proget.services.kingsway.asos.com/nuget/ASOSPackages": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\GIT\\test_project\\CarsFactory\\Abstractcookie\\CookieTemplate.csproj": {
-              "projectPath": "C:\\GIT\\test_project\\CarsFactory\\Abstractcookie\\CookieTemplate.csproj"
+            "C:\\GIT\\Car_Factory\\CarsFactory\\Abstractcookie\\CookieTemplate.csproj": {
+              "projectPath": "C:\\GIT\\Car_Factory\\CarsFactory\\Abstractcookie\\CookieTemplate.csproj"
             },
-            "C:\\GIT\\test_project\\CarsFactory\\ConsoleApp1\\SuperHeroBuilderProj.csproj": {
-              "projectPath": "C:\\GIT\\test_project\\CarsFactory\\ConsoleApp1\\SuperHeroBuilderProj.csproj"
+            "C:\\GIT\\Car_Factory\\CarsFactory\\AdapterPattern\\AdapterPattern.csproj": {
+              "projectPath": "C:\\GIT\\Car_Factory\\CarsFactory\\AdapterPattern\\AdapterPattern.csproj"
             },
-            "C:\\GIT\\test_project\\CarsFactory\\CarsFactory\\VehichleFactory.csproj": {
-              "projectPath": "C:\\GIT\\test_project\\CarsFactory\\CarsFactory\\VehichleFactory.csproj"
+            "C:\\GIT\\Car_Factory\\CarsFactory\\CarsFactory\\VehichleFactory.csproj": {
+              "projectPath": "C:\\GIT\\Car_Factory\\CarsFactory\\CarsFactory\\VehichleFactory.csproj"
             },
-            "C:\\GIT\\test_project\\CarsFactory\\InterpreterPattern\\CommandPattern.csproj": {
-              "projectPath": "C:\\GIT\\test_project\\CarsFactory\\InterpreterPattern\\CommandPattern.csproj"
+            "C:\\GIT\\Car_Factory\\CarsFactory\\ConsoleApp1\\SuperHeroBuilderProj.csproj": {
+              "projectPath": "C:\\GIT\\Car_Factory\\CarsFactory\\ConsoleApp1\\SuperHeroBuilderProj.csproj"
             },
-            "C:\\GIT\\test_project\\CarsFactory\\AdapterPattern\\AdapterPattern.csproj": {
-              "projectPath": "C:\\GIT\\test_project\\CarsFactory\\AdapterPattern\\AdapterPattern.csproj"
+            "C:\\GIT\\Car_Factory\\CarsFactory\\InterpreterPattern\\CommandPattern.csproj": {
+              "projectPath": "C:\\GIT\\Car_Factory\\CarsFactory\\InterpreterPattern\\CommandPattern.csproj"
             },
-            "C:\\GIT\\test_project\\CarsFactory\\TransportStrategy\\TransportStrategy.csproj": {
-              "projectPath": "C:\\GIT\\test_project\\CarsFactory\\TransportStrategy\\TransportStrategy.csproj"
+            "C:\\GIT\\Car_Factory\\CarsFactory\\TransportStrategy\\TransportStrategy.csproj": {
+              "projectPath": "C:\\GIT\\Car_Factory\\CarsFactory\\TransportStrategy\\TransportStrategy.csproj"
             }
           }
         }
