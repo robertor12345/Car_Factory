@@ -1672,6 +1672,16 @@
           "bin/placeholder/CookieTemplate.dll": {}
         }
       },
+      "DecoratorPattern/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/DecoratorPattern.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DecoratorPattern.dll": {}
+        }
+      },
       "SuperHeroBuilderProj/1.0.0": {
         "type": "project",
         "compile": {
@@ -5924,6 +5934,11 @@
       "path": "../Abstractcookie/CookieTemplate.csproj",
       "msbuildProject": "../Abstractcookie/CookieTemplate.csproj"
     },
+    "DecoratorPattern/1.0.0": {
+      "type": "project",
+      "path": "../DecoratorPattern/DecoratorPattern.csproj",
+      "msbuildProject": "../DecoratorPattern/DecoratorPattern.csproj"
+    },
     "SuperHeroBuilderProj/1.0.0": {
       "type": "project",
       "path": "../ConsoleApp1/SuperHeroBuilderProj.csproj",
@@ -5945,6 +5960,7 @@
       "AdapterPattern >= 1.0.0",
       "CommandPattern >= 1.0.0",
       "CookieTemplate >= 1.0.0",
+      "DecoratorPattern >= 1.0.0",
       "FluentAssertions >= 4.19.4",
       "MSTest.TestAdapter >= 1.2.0",
       "MSTest.TestFramework >= 1.2.0",
@@ -6000,6 +6016,9 @@
             },
             "C:\\GIT\\Car_Factory\\CarsFactory\\ConsoleApp1\\SuperHeroBuilderProj.csproj": {
               "projectPath": "C:\\GIT\\Car_Factory\\CarsFactory\\ConsoleApp1\\SuperHeroBuilderProj.csproj"
+            },
+            "C:\\GIT\\Car_Factory\\CarsFactory\\DecoratorPattern\\DecoratorPattern.csproj": {
+              "projectPath": "C:\\GIT\\Car_Factory\\CarsFactory\\DecoratorPattern\\DecoratorPattern.csproj"
             },
             "C:\\GIT\\Car_Factory\\CarsFactory\\InterpreterPattern\\CommandPattern.csproj": {
               "projectPath": "C:\\GIT\\Car_Factory\\CarsFactory\\InterpreterPattern\\CommandPattern.csproj"

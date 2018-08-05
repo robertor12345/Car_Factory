@@ -19,6 +19,7 @@
     <ProjectReference Include="..\AdapterPattern\AdapterPattern.csproj" />
     <ProjectReference Include="..\CarsFactory\VehichleFactory.csproj" />
     <ProjectReference Include="..\ConsoleApp1\SuperHeroBuilderProj.csproj" />
+    <ProjectReference Include="..\DecoratorPattern\DecoratorPattern.csproj" />
     <ProjectReference Include="..\InterpreterPattern\CommandPattern.csproj" />
     <ProjectReference Include="..\TransportStrategy\TransportStrategy.csproj" />
   </ItemGroup>
