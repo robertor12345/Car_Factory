@@ -32,7 +32,7 @@ namespace TestingPatterns
         [Test]
         public void CondimentsDescriptionShouldBeApplied()
         {
-            var expected = "This is a HouseBlend with almond milk";
+            var expected = "This is a HouseBlend with Almond Milk";
 
             Beverage houseBlend = new HouseBlend();
             houseBlend = new AlmondMilk(houseBlend);
