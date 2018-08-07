@@ -2,8 +2,23 @@
 
 namespace TestingPatterns
 {
-    public abstract class Condiment : Beverage
+    public abstract class Condiment : IBeverage
     {
-        public abstract string GetDescription();
+        private IBeverage Beverage;
+
+        public Condiment(IBeverage beverage)
+        {
+            this.Beverage = beverage;
+        }
+
+        public virtual string GetDescription()
+        {
+            return Beverage.GetDescription();
+        }
+
+        public virtual double Cost()
+        {
+            return Beverage.Cost();
+        }
     }
 }

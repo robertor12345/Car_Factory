@@ -1,13 +1,14 @@
 ﻿namespace DecoratorPattern
 {
-    public class Expresso : Beverage
+    public class Expresso : IBeverage
     {
-        public Expresso ()
+
+        public string GetDescription()
         {
-            Description = "This is an Expresso";
+            return "This is an Expresso";
         }
 
-        public override double Cost()
+        public double Cost()
         {
             return 1.99;
         }

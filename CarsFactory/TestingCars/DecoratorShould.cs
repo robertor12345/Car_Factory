@@ -34,7 +34,7 @@ namespace TestingPatterns
         {
             var expected = "This is a HouseBlend with Almond Milk";
 
-            Beverage houseBlend = new HouseBlend();
+            IBeverage houseBlend = new HouseBlend();
             houseBlend = new AlmondMilk(houseBlend);
 
             var result = houseBlend.GetDescription();
@@ -47,7 +47,7 @@ namespace TestingPatterns
         {
             var expected = 3.2;
 
-            Beverage houseBlend = new HouseBlend();
+            IBeverage houseBlend = new HouseBlend();
             houseBlend = new AlmondMilk(houseBlend);
 
             var result = houseBlend.Cost();
